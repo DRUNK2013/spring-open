@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri:http://172.16.8.36:89/root/spring-open/tree/master/conf

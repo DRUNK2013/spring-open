@@ -1,0 +1,9 @@
+server.port=8888
+spring.application.name=eureka
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+eureka.instance.appname=eureka
+eureka.instance.hostname=172.16.20.53
+#eureka.client.service.serviceUrl.defaultZone=http://localhost:${server.port}/eureka/
+security.basic.enabled=false
+management.security.enabled=false

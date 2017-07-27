@@ -1,0 +1,26 @@
+#server:
+#  port: 8000
+#eureka:
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    preferIpAddress: true
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:16801/eureka/
+  instance:
+    hostname: 172.16.8.36
+#      defaultZone: http://172.16.8.36:16801/eureka/
+spring:
+  application:
+    name: eureka-client-sample
+server:
+  port: ${SERVER_PORT:0}
+
+
