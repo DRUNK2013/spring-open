@@ -3,4 +3,4 @@ spring:
     config:
       server:
         git:
-          uri:http://172.16.8.36:89/root/spring-open/tree/master/conf
+          uri: git@github.com:DRUNK2013/config-repo.git
